@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(90deg,  rgb(151,87,231) 10%, rgb(49, 195, 233) 140%);
+}
+.center{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1, label, a {
+    background: linear-gradient(90deg,  rgb(151,87,231) 10%, rgb(49, 195, 233) 140%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.form-card {
+    margin: 2em;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    background-color: white;
+    padding: 2em;
+    width: 400px;
+}
+
+.form-row {
+    width: 100%;
+    margin: 0.5em 0;
+}
+.form-row input, button {
+    width: 100%;
+    padding: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button {
+    cursor: pointer;
+    color: white;
+    border: none;
+    background-image: linear-gradient(90deg,  rgb(151,87,231) 10%, rgb(49, 195, 233) 140%);
+}
+button:hover{
+    background-image: linear-gradient(90deg,  rgb(151,87,231) 40%, rgb(49, 195, 233) 150%);
+}
+button:active{
+    background-image: linear-gradient(90deg,  rgb(151,87,231) 70%, rgb(49, 195, 233) 170%);
+}
+.form-card h1 {
+    font-size: 2em;
+    text-align: center;
+}
